@@ -1,0 +1,96 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+b, strong {
+    font-weight: 700;
+}
+
+a {
+    color: #222a33;
+    text-decoration: none;
+    transition: color ease-in-out 0.1s;
+}
+
+a:hover {
+    color: #ff4444;
+    text-decoration: none;
+}
+
+p a {
+    color: #ff4444;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-weight: 700;
+    line-height: 1.2222;
+    font-size: 24px;
+    color: #1b2129;
+    text-transform: uppercase;
+}
+
+h2, h3 {
+    font-weight: 700;
+    line-height: 1.2222;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+h1 a {
+    color: #1b2129;
+}
+
+h2 a, h3 a {
+    color: #222a33;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover {
+    color: #ff4444;
+    text-decoration: none;
+}
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bishop-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.bishop-nowrap {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.bishop-flex-end {
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+}
+
+.bishop-space-between {
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+.bishop-align-center {
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.bishop-justify-center {
+    -webkit-justify-content: center;
+    justify-content: center;
+}
